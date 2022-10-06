@@ -1,19 +1,12 @@
-p{
-  margin: 0;
+.inline_box {
+    display: inline-block;
+    margin: 15px 15px;
+    width: 190px;
+    height: 100px;
+    background: aquamarine;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
+.property_box { 
+    background: bisque;
 }
 
-.container > div {
-  background-color: aquamarine;
-  width: 200px;
-  height: 100px;
-  margin: 1em;
-}
-
-.clear {
-  background-color: bisque;
-}
